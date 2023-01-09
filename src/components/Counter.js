@@ -16,6 +16,10 @@ class Counter extends React.Component {
       });
     }, 1000);
   }
+  // When not rendered on the DOM anymore, remove the timer
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
 
   render() {
     return (
