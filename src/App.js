@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+import Button from './components/Button';
+import Header from './components/Header';
+
 // const App = () => {
 //   return (
 //     <div className="App">
@@ -8,22 +11,6 @@ import './App.css';
 //     </div>
 //   );
 // }
-
-function Header() {
-  return (
-    <h1>Click the button!</h1>
-  )
-}
-
-function Button() {
-  return (
-    <button onClick={sayHello}>Click me!</button>
-  )
-}
-// Functions are not returning any JSX!
-function sayHello() {
-  console.log("Hello");
-}
 
 class App extends React.Component {
 
