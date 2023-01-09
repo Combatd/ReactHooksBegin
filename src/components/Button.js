@@ -1,6 +1,6 @@
-function Button() {
+function Button(props) {
   return (
-    <button onClick={sayHello}>Click me!</button>
+    <button onClick={sayHello}>{props.label}</button>
   )
 }
 

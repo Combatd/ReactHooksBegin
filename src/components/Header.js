@@ -1,6 +1,6 @@
-function Header() {
+function Header(props) {
   return (
-    <h1>Click the button!</h1>
+    <h1>{props.text}</h1>
   )
 }
 
