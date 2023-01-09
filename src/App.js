@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Header text="Hit it"/>
+        <Header text="You spent;"/>
         <Counter />
         <Button label="Hey!" />
       </>
