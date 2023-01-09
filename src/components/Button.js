@@ -15,13 +15,13 @@ class Button extends React.Component {
     // this.handlleButtonClick = this.handlleButtonClick.bind(this); // without arrow function, bind the context of this to instance of Button
   }
   // If not arrow function, must use arrow function for onClick
-  handlleButtonClick() {
+  handleButtonClick() {
     this.setState({ counter: 1})
   }
 
   render() {
     return (
-      <button onClick={() => this.handlleButtonClick}>{this.props.label}</button>
+      <button onClick={() => this.handleButtonClick}>{this.props.label}</button>
     )
   }
  }

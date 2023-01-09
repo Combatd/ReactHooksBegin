@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Button from './components/Button';
+import Counter from './components/Counter';
 import Header from './components/Header';
 
 // const App = () => {
@@ -18,6 +19,7 @@ class App extends React.Component {
     return (
       <>
         <Header text="Hit it"/>
+        <Counter />
         <Button label="Hey!" />
       </>
     );
